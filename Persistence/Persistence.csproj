@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Models\Interfaces\IEntity.cs" />
+    <Content Include="Models\Coin.cs" />
+    <Content Include="Models\Entity.cs" />
+    <Content Include="Models\Transaction.cs" />
+    <Content Include="Models\User.cs" />
+    <Content Include="InMemoryDb.cs" />
+    <Content Include="IInMemoryDB.cs" />
+    <Content Include="IdGenerator.cs" />
+  </ItemGroup>
+</Project>
